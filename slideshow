@@ -1,0 +1,2 @@
+#!/bin/bash
+echo `jupyter-nbconvert --to slides ./$1 --reveal-prefix=reveal.js --post serve`
